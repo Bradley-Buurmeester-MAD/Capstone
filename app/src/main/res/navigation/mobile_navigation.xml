@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.capstone.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_chooseWorkoutFragment"
+            app:destination="@id/chooseWorkoutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_quote"
+        android:name="com.example.capstone.ui.quote.QuoteFragment"
+        android:label="@string/title_quote"
+        tools:layout="@layout/fragment_quote" />
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="com.example.capstone.ui.statistics.StatisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
+    <fragment
+        android:id="@+id/chooseWorkoutFragment"
+        android:name="com.example.capstone.ui.home.add_workout.ChooseWorkoutFragment"
+        android:label="@string/title_choose_workout"
+        tools:layout="@layout/fragment_choose_workout" >
+        <action
+            android:id="@+id/action_chooseWorkoutFragment_to_chooseTimeFragment"
+            app:destination="@id/chooseTimeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseTimeFragment"
+        android:name="com.example.capstone.ui.home.add_workout.ChooseTimeFragment"
+        android:label="@string/title_choose_time"
+        tools:layout="@layout/fragment_choose_time" />
+
+</navigation>

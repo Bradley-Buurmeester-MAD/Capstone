@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Capstone</string>
+    <string name="title_home">Home</string>
+    <string name="title_quote">Quote</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_choose_workout">Choose Workout</string>
+    <string name="title_choose_time">Choose Time</string>
+
+    <!--strings Home fragment-->
+    <string name="textview_monday">Monday</string>
+    <string name="textview_tuesday">Tuesday</string>
+    <string name="textview_wednesday">Wednesday</string>
+    <string name="textview_thursday">Thursday</string>
+    <string name="textview_friday">Friday</string>
+    <string name="textview_saturday">Saturday</string>
+    <string name="textview_sunday">Sunday</string>
+
+    <string name="button_add_workout_discription">Add workout</string>
+    <string name="no_workout_planned_message">No workout planned</string>
+
+    <!--Choose Time Fragment-->
+    <string name="button_choose_date_text">Choose Date</string>
+    <string name="button_choose_time_text">Choose Time</string>
+    <string name="button_confirm_time_and_date_text">Confirm Time and Date</string>
+    <string name="textview_chosen_date">Date: %s</string>
+    <string name="textview_chosen_time">Time: %s</string>
+
+    <!--Statistics Fragment-->
+    <string name="image_discription_trophy">Trophy</string>
+    <string name="message_no_recent_workouts">No recent workouts</string>
+
+    <string name="dialog_message_name">Workout type: %s</string>
+    <string name="dialog_message_sets">Amount of sets: %d</string>
+    <string name="dialog_message_calories">Calories burned: %d</string>
+    <string name="dialog_message_duration">Duration: %s</string>
+    <string name="dialog_message_bpm">Bpm: %d</string>
+    <string name="button_ok">Ok</string>
+
+</resources>
